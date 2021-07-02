@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.c_class{
+    color: teal !important;
+    text-decoration: underline;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+/* Navber Section css style colde start from here */
+.navber{
+    background-color: black;
+    text-align: center;
+    color: white;
+    
+}
+.navber .nav{
+    padding: 30px 0px;
+    text-align: center;
+}
+.navber .nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navber a{
+    color: white;
+    font-size: 22px;
+    margin-left: 28px;
+    margin-right:28px;
+}
+.navber a:hover{
+    color: tomato;
+}
+/* Navber Section css style colde end here */
+
+/* Newsletter Section css style code start from here*/
+.newsletter{
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 80px 0px;
+}
+ h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: rgb(73, 74, 75);
+}
+ p{
+    font-size:18px;
+    color: rgb(122, 122, 122);
+    padding: 20px;
+}
+.newsletter .box-1{
+    border: 1px solid rgb(122, 122, 122);
+    border-radius:3px;
+    width: 28%;
+    background-color: transparent;
+}
+.newsletter .box-2{
+    border: 1px solid rgb(122, 122, 122);
+    border-radius:3px;
+    width: 38%;
+    background-color: transparent;
+}
+.newsletter .btn_1{
+    border: 1px solid rgb(122, 122, 122);
+    border-radius:3px;
+    width: 10%;
+    background-color: rgb(73, 71, 71);
+    color: white;
+    cursor: pointer;
+}
+.newsletter .btn_1:hover{
+    background-color: tomato;
+    border-color: tomato;
+}
+.newsletter input{
+    padding: 10px;
+}
+/* Newsletter Section css style code end here*/
+
+/* Contact_us Section css style code start from here*/
+.contact_us{
+    text-align: center;
+    padding: 80px 0px;
+    background-color: rgb(235, 235, 235);
+}
+.contact_us .box_4{
+    width: 40%;
+    margin: 5px;
+}
+.contact_us input{
+    padding: 10px;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius:3px;
+    background-color: transparent;
+}
+.contact_us .message{
+    width: 948px;
+    padding: 10px;
+    border: 1px solid rgb(122, 122, 122);
+    border-radius:3px;
+    background-color: transparent;
+}
+.check{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.check span{
+    
+}
+.btn_2 button{
+    color: white;
+    padding: 15px 28px;
+    font-size: 18px;
+    background-color: rgb(0,128,128);
+    cursor: pointer;
+    border: 1px solid rgb(0,128,128);
+    border-radius:3px;
+}
+.btn_2 button:hover{
+    color: rgb(247, 232, 26);
+}
+.btn_2{
+    text-align: left !important;
+    margin: 10px 0px 0px 85px;
+}
+/* Contact_us Section css style code end from here*/
